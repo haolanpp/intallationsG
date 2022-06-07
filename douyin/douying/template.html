@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抖音</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="./css/hot.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/public.js"></script>
+    <script src="./template.js"></script>
+
+    <script src="//unpkg.byted-static.com/xgplayer/2.31.6/browser/index.js" charset="utf-8"></script>
+    <!--第一个视屏 -->
+    <!-- <script src="//unpkg.byted-static.com/xgplayer/2.31.6/browser/index.js" charset="utf-8"></script> -->
+
+
+
+
+</head>
+
+<body>
+
+    <div id="root">
+        <!-- 侧边栏 -->
+        <div class="slide">
+            <!-- logo -->
+            <div class="logo-box">
+                <div class="logo"></div>
+            </div>
+
+            <!-- 导航栏父盒子 -->
+            <div class="item-box">
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/shouye.image" alt="">
+                    </div>
+                    <div class="title">首页</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/dianzan.image" alt="">
+                    </div>
+                    <div class="title">推荐</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/guanzhu.image" alt="">
+                    </div>
+                    <div class="title">关注</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/zhibo.image" alt="">
+                    </div>
+                    <div class="title">直播</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/zongyi.image" alt="">
+                    </div>
+                    <div class="title">综艺</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/redian.image" alt="">
+                    </div>
+                    <div class="title">热点</div>
+                </div>
+                <div class="item">
+                    <div class="other">
+                        <div class="img"></div>
+                    </div>
+                </div>
+
+                <!-- -------------------- -->
+                <div class="cut-line"></div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/yule.image" alt="">
+                    </div>
+                    <div class="title">娱乐</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/zhishi.image" alt="">
+                    </div>
+                    <div class="title">知识</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/erciyuan.image" alt="">
+                    </div>
+                    <div class="title">二次元</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/youxi.image" alt="">
+                    </div>
+                    <div class="title">游戏</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/meishi.image" alt="">
+                    </div>
+                    <div class="title">美食</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/tiyu.image" alt="">
+                    </div>
+                    <div class="title">体育</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/shishang.image" alt="">
+                    </div>
+                    <div class="title">时尚</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./img/music.image" alt="">
+                    </div>
+                    <div class="title">音乐</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 内容 -->
+        <div class="main">
+            <!-- 导航栏 -->
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="我是老六">
+                    <button><span class="iconfont">&#xe603;</span>搜索</button>
+
+                    <div class="search-other first-zIndex">
+                        <div class="top">
+                            <div class="title">猜你想要</div>
+                            <div class="content">
+                                <div class="left">
+                                    <div class="item">绝密押运</div>
+                                    <div class="item">宝宝巴士儿童画</div>
+                                    <div class="item">少儿动画片推荐</div>
+                                </div>
+                                <div class="right">
+                                    <div class="item">绝密押运</div>
+                                    <div class="item">宝宝巴士儿童画</div>
+                                    <div class="item">少儿动画片推荐</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="title">抖音热点</div>
+                            <div class="content">
+                                <div class="item">
+                                    <div class="icon">1</div>
+                                    <div class="text">一个中国原则不可撼动</div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">2</div>
+                                    <div class="text">一个中国原则不可撼动</div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">3</div>
+                                    <div class="text">一个中国原则不可撼动</div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">4</div>
+                                    <div class="text">一个中国原则不可撼动</div>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">5</div>
+                                    <div class="text">一个中国原则不可撼动</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other">
+                    <ul class="lite">
+                        <li class="nav-first">关于抖音</li>
+                        <ul class=" first-zIndex">
+                            <li>抖音开放平台</li>
+                            <li>认证与合作</li>
+                            <li>广告投放</li>
+                            <li>关于我们</li>
+                            <li>抖音电商</li>
+                            <li>透明的报告</li>
+                        </ul>
+                    </ul>
+                    <ul class="lite">
+                        <li class="nav-first">下载抖音</li>
+                        <ul class="download-box  first-zIndex">
+                            <div class="img">
+                                <img src="./img/download-logo.png" alt="">
+                            </div>
+                            <p>安装后可以在桌面快捷键访问抖音</p>
+                            <button>下载Windows客户端</button>
+                        </ul>
+                    </ul>
+                    <ul class="lite">
+                        <li class="nav-first">创作者服务</li>
+                    </ul>
+                    <button class="addVideo"><span class="iconfont">&#xeaf3;</span>发布视频</button>
+                    <button class="login">登录</button>
+                </div>
+
+                <div class="nav-lite">
+                    <div class="login">登录</div>
+                    <div class="menu-box">
+                        <div class="menu">
+                            <div class="icon"><span class="iconfont">&#xe790;</span></div>
+                            <ul>
+                                <li><span class="iconfont">&#xeaf3;</span>发布视频</li>
+                                <li>关于抖音</li>
+                                <li>下载抖音</li>
+                                <li>创作者服务</li>
+                                <li>透明的报告</li>
+                                <li>直播伴侣</li>
+                                <li>抖币充值</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+            <!-- -----内容区域----- -->
+            <div class="content">
+                
+                
+                <div class="item-box">
+                    <div class="big">
+                        <div class="contentt">
+                            <h2>热点视频</h2>
+                            <!-- 视屏部分 -->
+                            <div class="vido">
+                                <div id="mse1"></div>
+
+                                
+                                <p>&nbsp#天赐的声音时隔八年在登舞台</p><br>
+                                <div class="item">
+                                    <img src="./img/p1.jpeg" alt=""><a href="">浙江卫视&nbsp;&nbsp;&nbsp;
+                                     五天前
+                             
+                                </div>
+                                 <a href=""></a>
+                            </div>
+                            <div class="vido_p">
+                                <div id="mss"></div>
+                                <p>宏琪说交通:不敢急刹车 追尾惹麻烦</p><br>
+                                <div class="item">
+                                    <img src="./img/p2.jpeg" alt="">
+                                    <a href="">NBS法现&nbsp;&nbsp;&nbsp;四天前</a>
+                                </div>
+                            </div>
+                            <div class="vido_a">
+                                <div id="mss_a"></div>
+                                <p>#奔跑吧郑恺王鹤棣用给白鹿搭椅子五天前</p><br>
+                                <div class="item">
+                                    <img src="./img/p4.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;五天前</a>
+                                </div>
+                            </div>
+                            <div class="vido_s">
+                                <div id="mss_s"></div>
+                                <p>#2022毕业不说再见#</p><br>
+                                <div class="item">
+                                    <img src="./img/p5.jpeg" alt="">
+                                    <a href="">贵州燕姐&nbsp;&nbsp;（砥砺前行）&nbsp;5小时前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_d">
+                                <div id="mss_d"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_f">
+                                <div id="mss_f"></div>
+                                <p>#最新消息 #陕西出新规</p><br>
+                                <div class="item">
+                                    <img src="./img/p3.jpeg" alt="">
+                                    <a href="">陕视新闻&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一天前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_g">
+                                <div id="mss_g"></div>
+                                <p>#以青春之名 以青春之名唱响未来！</p><br>
+                                <div class="item">
+                                    <img src="./img/p5.jpeg" alt="">
+                                    <a href="">CC Kowalski&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;两天前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_h">
+                                <div id="mss_h"></div>
+                                <p>上海高三高二学生6月6日起返校复课。 </p><br>
+                                <div class="item">
+                                    <img src="./img/p7.jpeg" alt="">
+                                    <a href="">齐鲁晚报·果然视频&nbsp;&nbsp;&nbsp;&nbsp;10小时前 </a>
+                                </div>
+                            </div>
+
+                            <div class="vido_j">
+                                <div id="mss_j"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p9.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;2天前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_k">
+                                <div id="mss_k"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p2.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;1天前 </a>
+                                </div>
+                            </div>
+                         
+
+
+
+
+                             <div class="vido_l">
+                                <div id="mss_l"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p8.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;2天前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_z">
+                                <div id="mss_z"></div>
+                                <p>##福彩 相信才会有奇迹 </p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;5天前 </a>
+                                </div>
+                            </div>
+                             <div class="vido_x">
+                                <div id="mss_x"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p7.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;3天前 </a>
+                                </div>
+                            </div>
+                            <div class="vido_c">
+                                <div id="mss_c"></div>
+                                <p>#"卓依婷 "我只在乎你 "经典老歌 #抖音  </p><br>
+                                <div class="item">
+                                    <img src="./img/p1.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;2天前 </a>
+                                </div>
+                            </div> 
+                            <div class="vido_v">
+                                <div id="mss_v"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p5.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;3天前 </a>
+                                </div> 
+                            </div>
+                            <div class="vido_b">
+                                <div id="mss_b"></div>
+                                <p>#小猫咪果然很单纯啊 </p><br>
+                                <div class="item">
+                                    <img src="./img/p1.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;7天前 </a>
+                                </div>
+                            </div> 
+                             <div class="vido_n">
+                                <div id="mss_n"></div>
+                                <p>#危险！货车侧偏另一辆车抵住结伴前行！ </p><br>
+                                <div class="item">
+                                    <img src="./img/p9.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;1天前 </a>
+                                </div> 
+                             </div>
+                            <div class="vido_m">
+                                <div id="mss_m"></div>
+                                <p>#有一种喜欢叫爱不释手#靳东 #中国跑车 </p><br>
+                                <div class="item">
+                                    <img src="./img/p8.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;4天前 </a>
+                                </div>
+                            </div> 
+                          <div class="vido_q">
+                                <div id="mss_q"></div>
+                                <p>奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p4.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;5天前 </a>
+                                </div> 
+                           </div>
+                            <div class="vido_qw">
+                                <div id="mss_lqw"></div>
+                                <p>连续3晚睡眠不足免疫功能低一半（央视） </p><br>
+                                <div class="item">
+                                    <img src="./img/p5.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;6天前 </a>
+                                </div>
+                            </div> 
+                             <div class="vido_qe">
+                                <div id="mss_qe"></div>
+                                <p>上海疫情 上海新增确诊48例无症状290例 </p><br>
+                                <div class="item">
+                                    <img src="./img/p9.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;6小时 </a>
+                                </div> 
+                           </div>
+                            <!-- <div class="vido_qr">
+                                <div id="mss_qr"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p10.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;6天前 </a>
+                                </div>
+                            </div>  -->
+                            <!-- <div class="vido_qt">
+                                <div id="mss_qt"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p10.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;6天前 </a>
+                                </div> -->
+                            <!-- </div>
+                            <div class="vido_qy">
+                                <div id="mss_qy"></div>
+                                <p>#奔跑吧 李晨周深送女生的礼物惊呆沙溢 </p><br>
+                                <div class="item">
+                                    <img src="./img/p10.jpeg" alt="">
+                                    <a href="">浙江卫视&nbsp;&nbsp;&nbsp;&nbsp;6天前 </a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="vido_qu">
+                                <div id="mss_qu"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div> -->
+                            <!-- </div>
+                            <div class="vido_qi">
+                                <div id="mss_qi"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div> -->
+                            <!-- </div>
+                            <div class="vido_qo">
+                                <div id="mss_qo"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="vido_qp">
+                                <div id="mss_qp"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div> -->
+                            <!-- </div>
+                            <div class="vido_qa">
+                                <div id="mss_qa"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="vido_qs">
+                                <div id="mss_qs"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div> -->
+                            <!-- </div>
+                            <div class="vido_qd">
+                                <div id="mss_qd"></div>
+                                <p>美国又暴发疫情!军团病疫情已有19例确诊</p><br>
+                                <div class="item">
+                                    <img src="./img/p6.jpeg" alt="">
+                                    <a href="">新闻联播&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六天前 </a>
+                                </div>
+                            </div> -->
+                            <!-- 侧栏 -->
+                            <div class="light">
+                                <h2>抖音热榜</h2>
+                                <!-- <h3 style="display: block;color: aliceblue;">抖音热榜</h3> -->
+                                <a href=""></a>
+                                <div class="on">
+                                    <div class="itemm">
+                                        <img src="./img/up1.png" alt=""><a href="">一个中国原则不可撼动</a>
+    
+                                    </div>
+                                    <a href=""></a>
+    
+    
+                                    <div class="itemm">
+                                        <img src="./img/up2.png" alt=""><a href="">刘畊宏教你如何矫正小孩驼背</a><img src="./img/up6.png"
+                                            alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp; 1135.78w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        <img src="./img/up3.png" alt=""><a href="">
+    
+                                            2022毕业不说再见
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;1129.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        <img src="./img/up4.png" alt=""><a href="">
+                                            乌克兰国旗被美国倒挂
+                                        </a><img src="./img/up5.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;1129.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp; <b>4</b><a href="">&nbsp;
+                                            当三胞胎遇上三胞胎
+    
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;1099.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp; <b>5</b><a href="">
+                                            科尔拍桌哽咽谈枪击案
+                                        </a><img src="./img/up7.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;1011.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+    
+                                    <div class="itemm">
+                                        &nbsp;<b>6</b><a href="">
+                                            小哥穿汉服做核酸看呆路人
+                                        </a><img src="./img/up6.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;999.9w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+    
+                                    <div class="itemm">
+                                        &nbsp;<b>7</b><a href="">
+                                            老师因病去世学生哭成一片
+                                        </a><img src="./img/up5.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;990.9w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>8</b><a href="">
+                                            羽生结弦本周末重返花滑
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;988.5w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>9</b><a href="">
+                                            乌克兰国旗被美国倒挂
+                                        </a><img src="./img/up6.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;980.5w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>10</b><a href="">
+                                            美国小学枪击事件已致21死
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;978.5w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>11</b><a href="">
+                                            南京大屠杀幸存者巫吉英去世
+    
+                                        </a><img src="./img/up5.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;975.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>12</b><a href="">
+                                            乌克兰国旗被美国倒挂
+                                        </a><img src="./img/up6.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;973.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>13</b><a href="">
+                                            北京新增31例本土感染者
+    
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;969.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>14</b><a href="">
+                                            官方禁用医保支付大规模核检费用
+                                        </a><img src="./img/up5.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;965.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>15</b><a href="">
+                                            中方回应台海演习是否与拜登有关
+                                        </a><img src="./img/up6.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;955.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+    
+    
+                                    <div class="itemm">
+                                        &nbsp;<b>16</b><a href="">
+                                            乌克兰国旗被美国倒挂
+                                        </a><img src="./img/up7.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;940.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>17</b><a href="">
+                                            小米手环7测评
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;930.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>18</b><a href="">
+                                            iPhone14有望实现息屏显示
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;925.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>19</b><a href="">
+                                            常州一居民楼内爆炸致1死5伤
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;920.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>20</b><a href="">
+                                            乌克兰国旗被美国倒挂
+                                        </a><img src="./img/up7.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;910.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>21</b><a href="">
+                                            乘风破浪声明没有网投晋级环节
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;905.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>22</b><a href="">
+                                            独行侠1比3勇士
+                                        </a><img src="./img/up6.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;900.5w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>23</b><a href="">
+                                            接下来的故事慢慢听我说
+                                        </a><img src="./img/up7.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;900.2w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>24</b><a href="">
+                                            北京中高考将如期举行
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;899.5w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>25</b><a href="">
+                                            高三男孩从倒数逆袭成年级第一
+                                        </a><img src="./img/up5.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;898.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>26</b><a href="">
+                                            中国妇女报评初中女生在校分娩
+    
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;890.3w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>27</b><a href="">
+                                            人民网评乘风破浪的姐姐
+                                        </a><img src="./img/up5.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;888.5w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>28</b><a href="">
+                                            今天是喜羊羊生日
+                                        </a><img src="./img/up6.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;887.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>29</b><a href="">
+                                            良辰好景知几何后遗症
+                                        </a>
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;886.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>30</b><a href="">
+                                            披荆斩棘的哥哥能请张栋梁吗
+                                        </a><img src="./img/up7.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;885.4w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                    <div class="itemm">
+                                        &nbsp;<b>31</b><a href="">
+                                            于鲁明被免去北京卫健委主任职务
+                                        </a><img src="./img/up7.png" alt="">
+    
+                                    </div>
+                                    <div>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;878.6w 热度</p>
+                                    </div>
+                                    <a href=""></a>
+                                </div>
+                                <div class="item">
+                                    &nbsp;<b>32</b><a href="">
+                                        乌克兰国旗被美国倒挂
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;870.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>33</b><a href="">
+                                        拜登就小学枪击事件发表讲话
+    
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;868.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>34</b><a href="">
+    
+                                        甘肃一幼儿园老师击打多名学生
+    
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;866.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>35</b><a href="">
+                                        北京高校学生可安全有序返乡
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;865.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <!-- <div class="item">
+                                    &nbsp;<b>35</b><a href="">
+                                        iPhone14有望实现息屏显示
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;850.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>36</b><a href="">
+                                        杨绛去世6周年
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;840.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>37</b><a href="">
+                                        乘风破浪声明没有网投晋级环节
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;838.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>38</b><a href="">
+                                        四川乐山发生2.9级地震
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;830.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+    
+                                <div class="item">
+                                    &nbsp;<b>39</b><a href="">
+                                        卢雷元年是什么梗
+    
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;828.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>40</b><a href="">
+                                        初中女生在校分娩嫌犯被刑拘
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;826.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>41</b><a href="">
+                                        上海将再投放约2000辆出租车
+    
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;825.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>42</b><a href="">
+                                        匈牙利宣布进入国家紧急状态
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;822.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>43</b><a href="">
+    
+                                        张家界发现稀有两栖动物齿蟾
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;820.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>44</b><a href="">
+                                        披荆斩棘的哥哥能请张栋梁吗
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;820.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>45</b><a href="">
+                                        北大满哥再回应奥迪抄袭事件
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;788.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+    
+                                <div class="item">
+                                    &nbsp;<b>46</b><a href="">
+                                        俄罗斯将以卢布清偿外债
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;786.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>47</b><a href="">
+                                        北大满哥再回应奥迪抄袭事件
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;775.5w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>48</b><a href="">
+                                        暗夜行者太能打了
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;770.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>49</b><a href="">
+                                        暗夜行者到底谁是好人
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;762.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+                                <div class="item">
+                                    &nbsp;<b>50</b><a href="">
+                                        罗马夺欧会杯冠军
+                                    </a>
+    
+                                </div>
+                                <div>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;750.6w 热度</p>
+                                </div>
+                                <a href=""></a>
+    
+    
+    
+                            </div> -->
+                        </div>
+    
+    
+    
+    
+                    </div>
+                </div>
+                
+            </div>
+            <!-- -----内容区域----- -->
+
+        </div>
+
+</body>
+
+</html>
